@@ -47,7 +47,7 @@ function Review() {
             <p>{getRatingStars(review.rating)}</p>
             <p>{review.review}</p>
             <p>By: {review.reviewer}</p>
-            <Link type="button" to="/Home">
+            <Link type="button" to="/fare-reviews-app">
               <h1>
                 <i class="bi bi-box-arrow-in-left"></i>
               </h1>
