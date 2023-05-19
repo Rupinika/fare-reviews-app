@@ -6,7 +6,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/fare-reviews-app">
             Fare Reviews :)
           </a>
           <button
@@ -26,7 +26,7 @@ function Navbar() {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="/Home"
+                  to="/fare-reviews-app"
                 >
                   Home
                 </Link>
