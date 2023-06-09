@@ -31,88 +31,96 @@ function Form() {
       });
   }
   return (
-    <form id="box" className="container " onSubmit={write}>
-      <div className="mb-3">
-        <label htmlFor="exampleFormControlInput1" className="form-label">
-          Name
-        </label>
-        <input
-          ref={nameRef}
-          type="text"
-          className="form-control"
-          id="exampleFormControlInput1"
-          placeholder="Kimchi"
-          required
-        />
-      </div>
-      <div className="mb-3">
-        <label htmlFor="exampleFormControlInput2" className="form-label">
-          Place
-        </label>
-        <input
-          ref={placeRef}
-          type="text"
-          className="form-control"
-          id="exampleFormControlInput2"
-          placeholder="Korea"
-          required
-        />
-      </div>
-      <div className="mb-3">
-        <label htmlFor="exampleFormControlInput2" className="form-label">
-          Reviwer
-        </label>
-        <input
-          ref={reviewerRef}
-          type="text"
-          className="form-control"
-          id="exampleFormControlInput2"
-          placeholder="Rupinika"
-          required
-        />
-      </div>
-      <div className="mb-3">
-        <label htmlFor="exampleFormControlInput2" className="form-label">
-          Rating
-        </label>
-        <input
-          ref={ratingRef}
-          type="text"
-          className="form-control"
-          id="exampleFormControlInput2"
-          placeholder="Put a rating out of 5"
-          required
-        />
-      </div>
-      <div className="mb-3">
-        <label htmlFor="exampleFormControlInput2" className="form-label">
-          Cost
-        </label>
-        <input
-          ref={costRef}
-          type="text"
-          className="form-control"
-          id="exampleFormControlInput2"
-          placeholder="Put cost of food using the United States Dollar"
-          required
-        />
-      </div>
+    <container>
+      <h1 className="text-center m-4">Write A Review!</h1>
+      <form id="box" className="container " onSubmit={write}>
+        <div className="mb-3">
+          <label htmlFor="exampleFormControlInput1" className="form-label">
+            Name
+          </label>
+          <input
+            ref={nameRef}
+            type="text"
+            className="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Kimchi"
+            required
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="exampleFormControlInput2" className="form-label">
+            Place
+          </label>
+          <input
+            ref={placeRef}
+            type="text"
+            className="form-control"
+            id="exampleFormControlInput2"
+            placeholder="Korea"
+            required
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="exampleFormControlInput2" className="form-label">
+            Reviwer
+          </label>
+          <input
+            ref={reviewerRef}
+            type="text"
+            className="form-control"
+            id="exampleFormControlInput2"
+            placeholder="Rupinika"
+            required
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="exampleFormControlInput2" className="form-label">
+            Rating
+          </label>
+          <input
+            ref={ratingRef}
+            type="text"
+            className="form-control"
+            id="exampleFormControlInput2"
+            placeholder="Put a rating out of 5"
+            required
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="exampleFormControlInput2" className="form-label">
+            Cost
+          </label>
+          <input
+            ref={costRef}
+            type="text"
+            className="form-control"
+            id="exampleFormControlInput2"
+            placeholder="Put cost of food using the United States Dollar"
+            required
+          />
+        </div>
 
-      <div className="mb-3">
-        <label htmlFor="exampleFormControlTextarea1" className="form-label">
-          Review
-        </label>
-        <textarea
-          ref={reviewRef}
-          className="form-control"
-          id="exampleFormControlTextarea1"
-          rows={3}
-          defaultValue={""}
-          required
-        />
-      </div>
-      <button type="submit"> Send </button>
-    </form>
+        <div className="mb-3">
+          <label htmlFor="exampleFormControlTextarea1" className="form-label">
+            Review
+          </label>
+          <textarea
+            ref={reviewRef}
+            className="form-control"
+            id="exampleFormControlTextarea1"
+            rows={3}
+            defaultValue={""}
+            required
+          />
+        </div>
+        <button
+          type="submit"
+          className="p-2 w-100 my-2 bg-info border border-dark"
+        >
+          <i className="bi bi-send-fill" />
+        </button>
+      </form>
+    </container>
   );
 }
 

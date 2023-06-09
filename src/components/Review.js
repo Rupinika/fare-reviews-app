@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Comments from "./Comments";
 
 function Review() {
   const [review, setreview] = useState(
@@ -67,6 +68,12 @@ function Review() {
                 {review.likes}
               </h2>
             </button>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col bg-warning rounded rounded-4 border border-4 border-info-subtle p-5">
+            
+            <Comments review_id={review.id}/>
           </div>
         </div>
       </div>
