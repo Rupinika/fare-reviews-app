@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/fare-reviews-app/static/css/main.073c9b0a.css",
-    "main.js": "/fare-reviews-app/static/js/main.eaa3df91.js",
+    "main.js": "/fare-reviews-app/static/js/main.e707da46.js",
     "static/js/787.1abdd950.chunk.js": "/fare-reviews-app/static/js/787.1abdd950.chunk.js",
     "static/media/logo.svg": "/fare-reviews-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/fare-reviews-app/index.html",
     "main.073c9b0a.css.map": "/fare-reviews-app/static/css/main.073c9b0a.css.map",
-    "main.eaa3df91.js.map": "/fare-reviews-app/static/js/main.eaa3df91.js.map",
+    "main.e707da46.js.map": "/fare-reviews-app/static/js/main.e707da46.js.map",
     "787.1abdd950.chunk.js.map": "/fare-reviews-app/static/js/787.1abdd950.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.eaa3df91.js"
+    "static/js/main.e707da46.js"
   ]
 }
