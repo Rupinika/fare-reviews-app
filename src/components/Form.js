@@ -31,8 +31,10 @@ function Form() {
       });
   }
   return (
-    <container>
-      <h1 className="text-center m-4">Write A Review!</h1>
+    <container className="py-4">
+      <h1 className="text-center m-4 fw-lighter text-success">
+        Write A Review!
+      </h1>
       <form id="box" className="container " onSubmit={write}>
         <div className="mb-3">
           <label htmlFor="exampleFormControlInput1" className="form-label">
@@ -41,7 +43,7 @@ function Form() {
           <input
             ref={nameRef}
             type="text"
-            className="form-control"
+            className="form-control border border-success"
             id="exampleFormControlInput1"
             placeholder="Kimchi"
             required
@@ -54,7 +56,7 @@ function Form() {
           <input
             ref={placeRef}
             type="text"
-            className="form-control"
+            className="form-control border border-success"
             id="exampleFormControlInput2"
             placeholder="Korea"
             required
@@ -67,7 +69,7 @@ function Form() {
           <input
             ref={reviewerRef}
             type="text"
-            className="form-control"
+            className="form-control border border-success"
             id="exampleFormControlInput2"
             placeholder="Rupinika"
             required
@@ -80,7 +82,7 @@ function Form() {
           <input
             ref={ratingRef}
             type="text"
-            className="form-control"
+            className="form-control border border-success"
             id="exampleFormControlInput2"
             placeholder="Put a rating out of 5"
             required
@@ -93,7 +95,7 @@ function Form() {
           <input
             ref={costRef}
             type="text"
-            className="form-control"
+            className="form-control border border-success"
             id="exampleFormControlInput2"
             placeholder="Put cost of food using the United States Dollar"
             required
@@ -106,7 +108,7 @@ function Form() {
           </label>
           <textarea
             ref={reviewRef}
-            className="form-control"
+            className="form-control border border-success"
             id="exampleFormControlTextarea1"
             rows={3}
             defaultValue={""}
@@ -115,7 +117,7 @@ function Form() {
         </div>
         <button
           type="submit"
-          className="p-2 w-100 my-2 bg-info border border-dark"
+          className="p-2 w-100 my-2 btn btn-outline-success"
         >
           <i className="bi bi-send-fill" />
         </button>

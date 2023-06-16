@@ -38,7 +38,7 @@ function Review() {
 
   return (
     <>
-      <div className="container text-center bg-success rounded-4 mt-5 p-3 w-50 text-light">
+      <div className="container text-center bg-success rounded-4 mt-5 p-3 w-50 text-light py-4">
         <div className="row">
           <div className="col">
             <h1> {review.name}</h1>

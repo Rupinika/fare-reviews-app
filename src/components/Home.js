@@ -34,7 +34,7 @@ function Home() {
           </div>{" "}
         </div>
       ) : (
-        <div className="row">
+        <div className="row py-4">
           {information.map((element, index) => {
             return <Card element={element} />;
           })}
