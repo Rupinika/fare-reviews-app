@@ -62,7 +62,7 @@ function Comments({review_id}) {
           <div className="col">
             {
               comments.map((element,index) => {
-              return  <div className="bg-info rounded py-1 my-1 w-100 text-start px-2 ">{index}:{element.comment_text}</div>
+              return  <div className="bg-info rounded py-1 my-1 w-100 text-start px-2 text-dark ">{index}:{element.comment_text}</div>
               })
             }
           </div>

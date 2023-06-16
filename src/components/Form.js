@@ -21,7 +21,7 @@ function Form() {
       .then((res) => {
         console.log(res);
         if (res.status == 200) {
-          navigate("/Home");
+          navigate("/fare-reviews-app");
         } else {
           alert("Please try again");
         }
@@ -81,7 +81,7 @@ function Form() {
           </label>
           <input
             ref={ratingRef}
-            type="text"
+            type="number"
             className="form-control border border-success"
             id="exampleFormControlInput2"
             placeholder="Put a rating out of 5"
