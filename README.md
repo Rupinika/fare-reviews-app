@@ -33,8 +33,8 @@ GET
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `username`| `string` | **Required**. Username            |
-| `speed`   | `string` | **Required**. Top Speed           |
+| `comment`| `string` | **Required**. Comment on review            |
+
 
 ## Contributing
 
